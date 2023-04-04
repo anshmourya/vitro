@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background: #4099ff;
+}
+
+.A-one {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards {
+  max-width: 18rem;
+  margin: 20px 0;
+  background-color: #537FE7 !important;
+}
+
+.week-box {
+  width: 98%;
+  height: 350px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px -1px 5px 3px #d5d5d5;
+  padding: 30px;
+  margin: 20px 0;
+}
+.week-box h6 {
+  text-align: center;
+}
+
+.subject-box {
+  width: 100%;
+  height: auto;
+  border: 1px solid transparent;
+  box-shadow: 0px -1px 5px 3px #d5d5d5;
+  padding: 20px;
+}
+.subject-box h6 {
+  text-align: center;
+}
+
+.subject-bar {
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .A-one {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.table-container {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.table-container::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.grid-two {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .grid-two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.greeting {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.greet-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5a5c69;
+}
+
+#class-select {
+  width: 120px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.Card {
+  margin: 30px auto;
+}
+.Card i {
+  margin: 7px;
+}
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.text-right {
+  text-align: center;
+}
+
+.first-container {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.teacher-doghnut {
+  width: 98%;
+  height: 350px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px -1px 5px 3px #d5d5d5;
+  padding: 40px;
+  margin: 20px auto;
+}
+.teacher-doghnut h6 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .first-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .second-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.second-container {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .second-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.single-student {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+.single-student input {
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.w3-btn {
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.rollno-list {
+  background-color: white;
+  color: black;
+  border: 10px solid black;
+}
+
+.TakeAttendence {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+.TakeAttendence caption {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5647058824);
+  padding: 15px;
+}
+.TakeAttendence tr {
+  background-color: rgba(255, 255, 255, 0.5647058824);
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.TakeAttendence .thead {
+  background-color: rgb(67, 56, 202);
+  color: #fff;
+}
+.TakeAttendence th,
+.TakeAttendence td {
+  padding: 12px;
+  text-align: center;
+}
+.TakeAttendence th {
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+.TakeAttendence button {
+  color: white;
+  background-color: #4099ff;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  margin: auto 10px;
+}
+
+.btn-takeattendence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-takeattendence {
+  color: white;
+  background-color: #4099ff;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 180px;
+  font-size: 16px;
+  margin: auto 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .TakeAttendence {
+    border: 0;
+  }
+  .TakeAttendence .thead {
+    background-color: rgb(67, 56, 202);
+    color: #fff;
+  }
+  .TakeAttendence caption {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5647058824);
+  }
+  .TakeAttendence thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .TakeAttendence tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  .TakeAttendence td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+  .TakeAttendence td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .TakeAttendence td:last-child {
+    border-bottom: 0;
+  }
+}
+.subject-record button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto !important;
+  width: 50%;
+}/*# sourceMappingURL=global.css.map */
